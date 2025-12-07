@@ -63,7 +63,7 @@
     <td><a href="#Introduction">Introduction</td>
   </tr>
   <tr>
-    <td><a href="#Analysis and Discussion">Analysis and Discussion</td>
+    <td><a href="#How it works">How it works</td>
   </tr> 
   <tr>
     <td><a href="#References">References</td>
@@ -99,12 +99,10 @@
 
   <hr>
   <p>
-    <h3 id="Analysis and Discussion">Analysis and Discussion</h3>
+    <h3 id="How it works">How it works</h3>
 
     <p class="ex1">
-      <pre id="Analysis and Discussion_InText"> 
-        How it works:
-
+      <pre id="How it works_InText"> 
         The Magnus effect is a physical phenomenon that causes the trajectory of a
         spinning object in a fluid to alternate. A mixture of different effects makes
         it up, including the Bernoulli effect. It is named after German physicist
@@ -200,6 +198,9 @@
         Vol.196, p.104024
       </pre>
   </p>
+
+<video src="Physics behind the uses of the Magnus effect" width="800" height="450" controls>
+</video>
   
 <!-- //////////////////////////////////////////////////////////////////////////////// -->
   <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
@@ -272,7 +273,7 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("Analysis and Discussion_InText");
+    const AnalysisCount = displayWordCount("How it works_InText");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + AnalysisCount;
     // Display the total word count
