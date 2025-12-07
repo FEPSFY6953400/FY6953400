@@ -289,9 +289,11 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("How it works_InText");
+    const HowItWorksCount = displayWordCount("How it works_InText");
+    const UsesInSportCount = displayWordCount("Uses of Sport_InText");
+    const UsesInAviationAndMarineIndustriesCount = displayWordCount("Uses in Aviation and Marine industries_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
+    const totalWordCount = IntroductionCount + HowItWorksCount + UsesInSportCount + UsesInAviationAndMarineIndustriesCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
