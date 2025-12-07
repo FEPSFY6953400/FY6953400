@@ -108,7 +108,7 @@
     <h3 id="How it works">How it works</h3>
 
     <p class="ex1">
-      <pre id="How it works_InText"> 
+      <pre id="Analysis_InText"> 
         The Magnus effect is a physical phenomenon that causes the trajectory of a
         spinning object in a fluid to alternate. A mixture of different effects makes
         it up, including the Bernoulli effect. It is named after German physicist
@@ -130,7 +130,7 @@
     <h3 id="Uses in Sport">Uses in Sport</h3>
 
     <p class="ex1">
-      <pre id="Uses in Sport_InText">        
+      <pre id="Sport_InText">        
         The magnus effect proves to be very useful in many sports such as football, tennis,
         golf, baseball and cricket for examples. It also plays an important role in some
         aspects of the aviation industry and marine industry.
@@ -178,7 +178,7 @@
     <h3 id="Uses in Aviation and Marine industries">Uses in Aviation and Marine industries</h3> 
 
     <p class="ex1">
-      <pre id="Uses in Aviation and Marine industries_InText">
+      <pre id="Marine_InText">
         Some ships are built with Flettner rotors that utilise the magnus effect to generate
         lift when the wind blows past them. They are large vertical cylinders that cannot
         work alone to power the ship but can reduce energy consumption when paired with some
@@ -289,11 +289,11 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const HowItWorksCount = displayWordCount("How it works_InText");
-    const UsesInSportCount = displayWordCount("Uses of Sport_InText");
-    const UsesInAviationAndMarineIndustriesCount = displayWordCount("Uses in Aviation and Marine industries_InText");
+    const AnalysisCount = displayWordCount("Analysis_InText");
+    const SportCount = displayWordCount("Sport_InText");
+    const MarineCount = displayWordCount("Marine_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + HowItWorksCount + UsesInSportCount + UsesInAviationAndMarineIndustriesCount;
+    const totalWordCount = IntroductionCount + AnalysisCount + SportCount + Marine Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
